@@ -20,6 +20,7 @@ AccessDenied, admission denials, network blocks) that prove each security contro
 | [`modules-docs/`](./modules-docs) | Concept deep-dives (the "why") with diagrams for each module. |
 | [`images/`](./images) | Architecture & flow diagrams referenced by the docs. |
 | [`workshop-tools/`](./workshop-tools) | Reference for the CLI tools used (kubectl, eksctl, helm, jq, k9s, …). |
+| [`learning-path/`](./learning-path) | **Study kit** — Excel workbooks: a master learning path + progress tracker, and one per-module workbook (overview / steps / self-check). |
 | `main.tf`, `eks-auto-2/`, `eks-private-cluster/`, `kube-bench/`, `devsecops/` | The Terraform that provisions the cluster(s) and supporting infrastructure. |
 
 ---
