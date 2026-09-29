@@ -1,0 +1,29 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+override.tf
+override.tf.json
+
+# Workshop artifact not part of the docs
+kirocli.zip
+
+# Secrets / credentials — never commit
+*.pem
+*.key
+.env
+credentials
+*credentials*.json
+/tmp/
+
+# Build/scratch
+.build/
+*.zip
+!*/images/**/*.png
+
+# OS
+.DS_Store
+Thumbs.db
